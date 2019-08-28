@@ -38,7 +38,9 @@ export default new Vuex.Store({
   actions: {
     save({commit}, user){
       console.log(user)
-      commit('saveCurrentUser', user)
+      const role='Adm'
+      console.log(role)
+      commit('saveCurrentUser', user, role)
       router.push('/')
     },
 
