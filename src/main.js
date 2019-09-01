@@ -15,7 +15,7 @@ Vue.mixin({
   
   created() {
     Vue.prototype.$userData = JSON.parse(sessionStorage.getItem('userLogin')) || ''
-    console.log('Read Session Storage')
+    //console.log('Read Session Storage')
   },
 
       
