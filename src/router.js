@@ -20,6 +20,12 @@ export default new Router({
         import("./components/Login.vue")
     },
     {
+      path: "/livros",
+      name: "livros",
+      component: () =>
+        import("./views/Livros.vue")
+    },
+    {
       path: "/about",
       name: "about",
       component: () =>

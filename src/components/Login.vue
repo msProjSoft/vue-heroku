@@ -4,12 +4,12 @@
 
             <form @submit.prevent="save({firstName, lastName})">
                 <input type="text" class="form-control" v-model="firstName">
+                <br>
                 <input type="text" class="form-control" v-model="lastName">
             <br>
             <button class="btn btn-info" type="submit" >Save</button>
             </form>
 
-            <br>
             <br>
 
             <br>

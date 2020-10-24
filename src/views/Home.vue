@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <Hello msg="Welcome to Your Vue.js App" />
+    <Hello msg="Vue + Heroku" />
   </div>
 </template>
 
